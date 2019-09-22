@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8"></meta>
+        <title>Home</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<img class="g-img" src="assets/logo.png"> 
+				<nav class="topnav">
+					<a class="g-c1 flex-item active" href="#">HOME</a>
+					<a class="g-c2 flex-item" href="contribute.html">CONTRIBUTE</a>
+					<a class="g-c3 flex-item" href="login.html">LOG IN</a>
+					<a class="g-c4 flex-item" href="register.html">REGISTER</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>	
+			<div class="f1"> 
+				<form action='/essentials' method='POST'>
+						<div>
+						<label for= "choice" >LANGUAGE </label>
+						<div class="custom-select">
+							<select name="choice" id="choice">
+								<option value="first">Urdu - اردو </option>
+								<option value="second" selected>Korean - 한국어</option>
+								<option value="third">Vietnamese - Tiếng Việt</option>
+							</select>
+						</div>
+						</div>
+					<div>
+						<label>FORM </label>
+						<br><input type="text" name="search">
+					</div>
+			
+					<button class="button" >Search</button>
+				</form>
+			</div>
+		</main>		
+		
+		<footer>
+			<span>&copy; Native Aid 2019</span>
+		</footer>
+	</body>	
+</html>
