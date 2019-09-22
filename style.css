@@ -58,6 +58,10 @@ a {
     padding: 0.7em;
 }
 
+a.hide {
+    visibility: hidden;
+}
+
 form {
     margin: auto;
     text-align: center;
@@ -146,19 +150,6 @@ input:hover {
 }
 
 
-
-/*
-main-container .flex-item{
-    display: flex;
-    flex-flow: colum;
-    align-items: center;
-    border-bottom: 1px solid #aaaaaa;
-    padding: 0 0 10px 0;
-    flex: 1;
-    margin: 0 15px;
-}*/
-
-
 @media only screen and (max-width: 600px) {
     
     header {
@@ -171,13 +162,6 @@ main-container .flex-item{
             "c3"
             "c4";
     }
-/*
-    .header-container {
-        flex-flow: column nowrap;
-
-    }
-
-    */
     img.g-img {
         width: 130px;
         height: auto;
