@@ -6,4 +6,4 @@ Native Aid allows bilingual speakers who are fluent in english and a second nati
 
 In the future the platform will also compare different entries for each form under the same language in order to analize fidelity. 
 
-Users who are not fluent in English (r dont speak English at all) will be able to find forms that have been translated to their native language and see translation annotations next to the official English forms so that they can confidently fill in their government forms without needing to rely on people around them to help them complete them.
+Users who are not fluent in English (or do not speak English at all) will be able to find forms that have been translated to their native language and see translation annotations next to the official English forms so that they can confidently fill in their government forms without needing to rely on people around them to help them complete them.
