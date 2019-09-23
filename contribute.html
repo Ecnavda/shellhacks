@@ -9,21 +9,33 @@
 	<body>
 		<header>
 			<div class="container">
-				<img class="g-img" src="assets/logo.PNG"> 
+				<img class="g-img" src="assets/logo.png"> 
 				<nav class="topnav">
 						<a class="g-c1" href="index.html">HOME</a>
-						<a class="g-c2 active" href="#">CONTRIBUTE</a>
-						<a class="g-c3" href="login.html">LOG IN</a>
-						<a class="g-c4" href="register.html">REGISTER</a>
+						<a class="g-c2 active" href="contribute.html">CONTRIBUTE</a>
+						<a class="g-c3 login" href="login.html">LOG IN</a>
+						<a class="g-c4 login" href="register.html">REGISTER</a>
+						<a class="hide" href="logout.php">LOG OUT</a>
 				</nav>
 			</div> 
 		</header>
 		<main>
 			<div class="f1"> 
+					<form id="contribute">
+						<div>
+								<embed src="https://www.uscis.gov/system/files_force/files/form/i-589.pdf" />
+								<br>
+							<label>Translation: </label>
+							<br>
+							<textarea name="paragraph_text" cols="80" rows="10"></textarea>
+						</div>
+						<button class="button" style="margin-bottom: 20px;">Submit</button>
+					</form>
 			</div>
 		</main>
 			
 		
+
 		<footer>
 			<span>&copy; Native Aid 2019</span>
 		</footer>
